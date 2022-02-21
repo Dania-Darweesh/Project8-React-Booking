@@ -1,0 +1,82 @@
+.hero{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 0 30px;
+    }
+}
+
+.hero {
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    color: #CCC;
+    margin-bottom: 10px;
+}
+
+.hero-title:nth-child(2) {
+    color: #CCC;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.hero-title:nth-child(3) {
+    color: #FFF
+}
+
+@media (max-width: 767px) {
+    .hero-title:nth-child(3) {
+        font-size: 2rem;
+    }
+}
+
+.hero-desc {
+    color: #CCC;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .hero-desc {
+        font-size: 1.5rem;
+        width: 370px;
+    }
+}
+
+.Resume-btn {
+    /* background: rgba(100, 255, 218, 0.6); */
+    /* color: #fff;
+    font-weight: bold;
+    border: 1px solid #64ffda;
+    transition: .5s;
+    padding: 10px 15px;
+    margin-top: 0.75rem;
+    font-size: 1.29rem; */
+    padding: 10px 15px;
+    border:1px solid #61f7d4 ;
+    background-color: #0a192f;
+    border-radius: 5px;
+    color: #61f7d4;
+    cursor: pointer;
+    
+
+}
+.Resume-btn:hover{
+    background-color: #133040 ;
+}
+
+.secondary-btn {
+    background: transparent;
+    margin-left: 20px;
+}
+ .hire{
+         margin-right: 30px;
+}
